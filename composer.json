@@ -1,0 +1,13 @@
+{
+    "name": "joerobles/checkeate_mobile_checkout",
+    "description": "Checkeate Mobile Checkout",
+    "require": {
+        "silex/silex": "~2.0"
+    },
+    "authors": [
+        {
+            "name": "Joe Robles",
+            "email": "joe.robles.pdj@gmail.com"
+        }
+    ]
+}

@@ -36,10 +36,10 @@ $app->get('/', function() use($app) {
   "                console.log('culqi executed')\n" .
   "                if (Culqi.token) {\n" .
   "                    var token = Culqi.token.id;\n" .
-  "                    alert('Se ha creado un token:'.token);\n" .
+  "                    console.log('Se ha creado un token:', token);\n" .
   "                } else {\n" .
   "                    console.log(Culqi.error);\n" .
-  "                    alert(Culqi.error.mensaje);\n" .
+  "                    console.log('Culqi error', Culqi.error.mensaje);\n" .
   "                }\n" .
   "            };\n" .
   "        </script>\n" .
